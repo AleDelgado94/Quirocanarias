@@ -26,22 +26,12 @@
 
   <title>QuiroCanarias</title>
 </head>
-<body onunload="loading()">
+<body onload="loading()">
 
-<!--
-  <div class="preloader-wrapper big active">
-    <div class="spinner-layer spinner-blue">
-      <div class="circle-clipper left">
-        <div class="circle"></div>
-      </div><div class="gap-patch">
-        <div class="circle"></div>
-      </div><div class="circle-clipper right">
-        <div class="circle"></div>
-      </div>
-    </div>
-  </div>
--->
-<section id="pagina">
+<div class="loader">
+</div>
+
+<div style="display:none" id="pagina">
 
 
   <div id="barra" class="navbar-fixed">
@@ -237,8 +227,8 @@
         </div>
       </section>
 
-    </div>
-  </div>
+
+
 
 
   <div class="parallax-container">
@@ -385,15 +375,15 @@ Nuestro servicio no termina al finalizar la consulta, se le harán una serie de 
           </form>
         </div>
 
-</section>
+</div>
 
 
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+  <script  src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script  src="js/materialize.js"></script>
+  <script  src="js/init.js"></script>
 
   </body>
 </html>
