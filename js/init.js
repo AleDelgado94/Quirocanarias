@@ -54,7 +54,8 @@ $(window).resize(function(){
 var load;
 
 function loading(){
-  load = setTimeout(showPage, 3000);
+  //load = setTimeout(showPage, 3000);
+  showPage();
 }
 
 

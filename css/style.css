@@ -198,3 +198,9 @@ footer.page-footer {
 .icon_left{
   margin-right: 20px;
 }
+
+#loader{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
