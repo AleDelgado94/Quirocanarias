@@ -60,5 +60,5 @@ function loading(){
 
 function showPage() {
   document.getElementById("loader").style.display = 'none';
-  document.getElementById("pagina").style.display = 'block';
+  document.getElementById("pagina").style.visibility = 'visible';
 }
