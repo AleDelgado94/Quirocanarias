@@ -21,6 +21,6 @@ mail($email_to, "Mensaje Web Quirocanarias.es", $email_message, $headers);
 
 echo "Mensaje enviado";
 sleep(3);
-header('Location: www.alejandrodelgadomartel.16mb.com');
+header('Location: index.html');
 
 ?>
