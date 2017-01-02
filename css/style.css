@@ -199,8 +199,59 @@ footer.page-footer {
   margin-right: 20px;
 }
 
+
 #loader{
   position: absolute;
-  /*left: 50%;*/
   top: 50%;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.social{
+  position: fixed;
+  left: 0;
+  top: 35%;
+  z-index: 2000;
+}
+
+.social ul{
+  list-style: none;
+}
+
+.social ul li a i{
+  display: inline-block;
+  color: white;
+  background: black;
+  padding: 10px 20px;
+  width: 55px;
+  text-decoration: none;
+  -webkit-transition:all 500ms;
+  -o-transition:all 500ms;
+  transition: 500ms;
+}
+
+
+.social ul li .fa-facebook{
+  background: #3b5998;
+}
+
+.social ul li .fa-twitter{
+  background: #1da1f2;
+}
+
+.social ul li .fa-instagram{
+  background: #e1306c;
+}
+
+.social ul li a i:hover{
+  padding: 15px 50px;
+  background: black;
+
 }
