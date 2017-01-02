@@ -29,7 +29,7 @@
   <title>QuiroCanarias</title>
 </head>
 <body>
-<!--  <div class="navbar-fixed"> -->
+  <div id="barra" class="navbar-fixed">
     <nav class="white" role="navigation">
       <div class="nav-wrapper container">
         <a id="logo-container" href="#" class="brand-logo">Quirocanarias</a>
@@ -37,19 +37,25 @@
           <li><a href="#">Inicio</a></li>
           <li><a href="#us">Nosotros</a></li>
           <li><a href="#services">Servicios y Horarios</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#contact">Contacto</a></li>
         </ul>
-
-        <ul id="nav-mobile" class="side-nav">
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#us">Nosotros</a></li>
-          <li><a href="#services">Servicios y Horarios</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
       </div>
     </nav>
-<!--  </div> -->
+  </div>
+
+
+  <div id="boton_bar" class="fixed-action-btn toolbar">
+    <a  class="btn-floating btn-large #1b5e20 green darken-4">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li class="waves-effect waves-light"><a href="#">Inicio</a></li>
+      <li class="waves-effect waves-light"><a href="#us">Nosotros</a></li>
+      <li class="waves-effect waves-light"><a href="#services">Servicios y Horarios</a></li>
+      <li class="waves-effect waves-light"><a href="#contact">Contacto</a></li>
+    </ul>
+  </div>
+
 
 
 
@@ -61,10 +67,10 @@
       <div class="container">
         <br><br>
         <div class="container" align="center">
-          <img class="materialboxed" style="height:650"  id="imagen_principal" src="img/quirocanarias_logo.png" alt="Unsplashed background img 1"></img>
+          <img class="materialboxed"  id="imagen_principal" src="img/quirocanarias_logo.png" alt="Unsplashed background img 1"></img>
         </div>
         <div class="row center">
-          <h5 class="header col s12 light" style="color:#1b5e20">Dedicamos nuestro trabajo a facilitarle el día a día mejorando su estado de bienestar a través de 	terapias de quiromasaje.</h5>
+          <h5 class="header col s12 light green-text text-darken-4">Dedicamos nuestro trabajo a facilitarle el día a día mejorando su estado de bienestar a través de 	terapias de quiromasaje.</h5>
         </div>
         <br><br>
 
@@ -105,7 +111,7 @@
 
               <div class="col s4 m4">
                 <div class="icon-block">
-                  <h2 class="center brown-text"><i class="material-icons" style="color:#1b5e20">perm_identity</i></h2>
+                  <h2 class="center brown-text"><i class="material-icons green_icon">perm_identity</i></h2>
                   <h5 class="center">¿Quienes somos?</h5>
 
                   <p class="light">Quiromasajista con conocimientos en movilizaciones, estiramientos, acupresiones, técnicas de masaje terapéutico, deportivo y relajante, herbodietética, formación especializada en fitoterapia, nutrición,  dietética, homeopatía,  productos dietéticos, ecológicos y complementos de la dieta.</p>
@@ -117,7 +123,7 @@
 
               <div class="col s4 m4">
                 <div class="icon-block">
-                  <h2 class="center brown-text"><i class="material-icons" style="color:#1b5e20">announcement</i></h2>
+                  <h2 class="center brown-text"><i class="material-icons green_icon">announcement</i></h2>
                   <h5 class="center">¿Qué hacemos?</h5>
 
                   <p class="light">Trabajamos a diario para ofrecerte un servicio de terapias alternativas buscando la mejor manera para lograr un estado de bienestar y confort óptimo para tu salud a través del quiromasaje</p>
@@ -140,7 +146,6 @@
   </div>
 
   <section id="services">
-    <p><br></p>
     <div class="container">
       <div class="section">
 
@@ -225,7 +230,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light" style="color:#1b5e20;">Cada sesión de quiromasaje es única y personalizada, ofreciéndole así la atención que mejor convenga en cada ocasión. <br>
+          <h5 class="header col s12 light green-text text-darken-4" >Cada sesión de quiromasaje es única y personalizada, ofreciéndole así la atención que mejor convenga en cada ocasión. <br>
 Nuestro servicio no termina al finalizar la consulta, se le harán una serie de recomendaciones personalizadas dependiendo de las carencias del cliente.</h5>
         </div>
         <br><br>
@@ -239,7 +244,7 @@ Nuestro servicio no termina al finalizar la consulta, se le harán una serie de 
 
 
 
-  <footer class="page-footer #9e9e9e grey">
+  <footer id="contact" class="page-footer #9e9e9e grey">
      <div class="container">
        <div class="row">
          <div class="col l6 s12">
@@ -249,19 +254,24 @@ Nuestro servicio no termina al finalizar la consulta, se le harán una serie de 
 
               <div class="col">
                 <div class="icon-block">
-                  <h2 class="center brown-text"><i class="fa fa-phone" style="color:#1b5e20"></i>&nbsp;<i class="fa fa-whatsapp" style="color:#1b5e20"></i></h2>
+                  <h2 class="center brown-text"><i class="fa fa-phone green_icon"></i>&nbsp;<i class="fa fa-whatsapp green_icon"></i></h2>
                   <h5 class="center">670 934 316</h5>
                 </div>
               </div>
 
               <div class="col">
                 <div class="icon-block">
-                  <h2 class="center brown-text"><i class="fa fa-envelope" style="color:#1b5e20; margin-left:10px"></i></h2>
+                  <h2 class="center brown-text"><i id="mail_icon" class="fa fa-envelope green_icon"></i></h2>
                   <h5 class="center">quirocanariastenerife@gmail.com</h5>
                 </div>
               </div>
 
             </div>
+
+            <div class="row">
+              <h6>Puedes ponerte en contacto <a class="green-text text-darken-4" href="#modal2">aquí</a></h6>
+            </div>
+
 
 
          </div>
@@ -280,7 +290,7 @@ Nuestro servicio no termina al finalizar la consulta, se le harán una serie de 
 
      <div class="footer-copyright">
        <div class="container">
-       © 2016 Copyright Quirocanarias
+       © 2017 Copyright Quirocanarias
        </div>
      </div>
    </footer>
@@ -291,12 +301,12 @@ Nuestro servicio no termina al finalizar la consulta, se le harán una serie de 
     <!-- Modal Trigger -->
 
         <!-- Modal Structure -->
-        <div id="modal1" class="modal" style="max-width:555px; max-height:700px">
+        <div id="modal1" class="modal mymodal">
           <div class="modal-content">
-            <div class="card" style=" width:510px">
-              <div class="card-image" style="margin-left:5px; margin-top: 5px" >
+            <div id="ubication_card" class="card">
+              <div id="ubication_card_image" class="card-image">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d877.4404396631007!2d-16.544543311900497!3d28.396262878644226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6a7ffcf896fc6d%3A0xffffe97aba8596d1!2sCalle+Ingenios+Azucareros%2C+34%2C+38312+La+Orotava%2C+Santa+Cruz+de+Tenerife!5e0!3m2!1ses!2ses!4v1483121661042"  width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <span class="card-title right"><p style="color: black; font-weigh:bold; float:right">
+                <span class="card-title right"><p class="black-text text_bold ">
      ¿Dónde estamos?
                 </p></span>
 
@@ -309,6 +319,55 @@ Nuestro servicio no termina al finalizar la consulta, se le harán una serie de 
           <div class="modal-footer">
             <a class=" modal-action modal-close waves-effect waves-green btn-floating right #1b5e20 green darken-4"><i class="material-icons large">done</i></a>
           </div>
+        </div>
+
+
+
+
+        <div id="modal2" class="modal mymodal">
+          <div class="modal-content">
+
+            <div class="row">
+              <form id="form_contacto" class="col s12" name="formContacto" method="post" action="email.php">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="first_name" name="first_name" required type="text" class="validate">
+                    <label for="first_name">Nombre</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input id="last_name" name="last_name" required type="text" class="validate">
+                    <label for="last_name">Apellidos</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">mail</i>
+                    <input id="email" type="email" name="email" required class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+
+                <div class="row">
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">mode_edit</i>
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Mensaje</label>
+                      </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+          </div>
+          <div class="modal-footer">
+            <input type="submit" value="Submit"><a class=" modal-action modal-close waves-effect waves-green btn-floating right #1b5e20 green darken-4" href="#"><i class="material-icons large">done</i></a>
+            <a id="cancel_button" href="#" class="modal-action modal-close waves-effect waves-red btn-floating right #f44336 red "><i class="material-icons larga">not_interested</i></a>
+          </div>
+                        </form>
         </div>
 
 

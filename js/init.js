@@ -7,14 +7,42 @@
     $('.materialboxed').materialbox();
     $('.collapsible').collapsible();
     $('.modal').modal();
+    $('#textarea1').trigger('autoresize');
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
+var width_ = 0;
 
 
 $(document).ready(function(){
+      width_ = $(window).width();
+
+      if(width_ >= 982){
+        document.getElementById('boton_bar').style.display = 'none';
+      }
+      else if(width_ < 982){
+        document.getElementById('boton_bar').style.display = '';
+      }
+
+
+      $('#cancel_button').click(function(){
+        document.forms["form_contacto"]["first_name"].value = "";
+        document.forms["form_contacto"]["last_name"].value = "";
+        document.forms["form_contacto"]["email"].value = "";
+        document.forms["form_contacto"]["textarea1"].value = "";
+      });
+
       $('.button-collapse').sideNav();
-    /*  $('.side-nav').click(function() {
-        $('.nav-wrapper').display="none";
-      });*/
-  });
+});
+
+
+$(window).resize(function(){
+  width_ = $(window).width();
+  if(width_ >= 982){
+    document.getElementById('boton_bar').style.display = 'none';
+  }
+  else if(width_ < 982){
+    document.getElementById('boton_bar').style.display = '';
+  }
+
+});

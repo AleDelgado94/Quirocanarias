@@ -156,11 +156,34 @@ footer.page-footer {
 #imagen_principal{
   max-height: 250px;
   position: relative;
+/*  height: 650;*/
 }
 
 #conocimientos{
   float: left;
 
+}
+
+#mail_icon{
+  margin-left: 10px;
+}
+
+#ubication_card{
+  width: 510px;
+}
+
+#ubication_card_image{
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+#cancel_button{
+  margin-right: 5px;
+}
+
+.mymodal{
+  max-width: 555px;
+  max-height: 700px;
 }
 
 .servicios_verde{
@@ -171,4 +194,12 @@ footer.page-footer {
 .servicios_gris{
   background-color: #9e9e9e;
   color: white;
+}
+
+.green_icon{
+  color: #1b5e20;
+}
+
+.text_bold{
+  font-weight: bold;
 }
