@@ -5,7 +5,7 @@ if (isset($_POST['email'])) {
   if(!isset($_POST['first_name']) ||
 !isset($_POST['last_name']) ||
 !isset($_POST['email']) ||
-!isset($_POST['textarea1']){
+!isset($_POST['textarea1'])){
 
   echo "<b>Ocurrió un error y el formulario no ha sido enviado. </b><br />";
   echo "Por favor, vuelva atrás y verifique la información ingresada<br />";
