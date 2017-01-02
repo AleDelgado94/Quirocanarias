@@ -20,6 +20,7 @@ $headers = 'From: ' . $email_from . "\r\n" .
 mail($email_to, "Mensaje Web Quirocanarias.es", $email_message, $headers);
 
 echo "Mensaje enviado";
+sleep(3);
 header('Location: index.html');
 
 ?>
