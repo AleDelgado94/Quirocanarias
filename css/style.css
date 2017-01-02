@@ -203,3 +203,7 @@ footer.page-footer {
 .text_bold{
   font-weight: bold;
 }
+
+.icon_left{
+  margin-right: 20px;
+}
