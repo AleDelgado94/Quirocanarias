@@ -15,6 +15,7 @@ var width_ = 0;
 
 
 $(document).ready(function(){
+
       width_ = $(window).width();
 
       if(width_ >= 982){
@@ -36,6 +37,9 @@ $(document).ready(function(){
 });
 
 
+
+
+
 $(window).resize(function(){
   width_ = $(window).width();
   if(width_ >= 982){
@@ -46,3 +50,9 @@ $(window).resize(function(){
   }
 
 });
+
+
+
+function loading(){
+  $('#pagina').style.display = 'none';
+}
