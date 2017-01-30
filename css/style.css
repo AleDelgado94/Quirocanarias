@@ -145,7 +145,7 @@ footer.page-footer {
 }
 
 #imagen_principal{
-  max-height: 250px;
+  max-height: 300px;
   position: relative;
 /*  height: 650;*/
 }
@@ -185,6 +185,10 @@ footer.page-footer {
 .servicios_gris{
   background-color: #9e9e9e;
   color: white;
+}
+
+.texto_verde{
+  color: #1b5e20;
 }
 
 .green_icon{
@@ -233,6 +237,7 @@ footer.page-footer {
   width: 55px;
   text-decoration: none;
   -webkit-transition:all 500ms;
+  -webkit-transition:all 500ms;
   -o-transition:all 500ms;
   transition: 500ms;
 }
@@ -258,4 +263,32 @@ footer.page-footer {
 
 .boton_up{
   margin-bottom: 10px;
+}
+
+.contacto_text {
+  font-size: 18px;
+  margin-left: -4%;
+}
+
+
+.imagen{
+  box-shadow: none;
+  position: relative;
+  margin-top: 35px;
+}
+
+.imagen_text{
+  position: relative;
+  margin-left: -17px;
+}
+
+.logo_img{
+  max-height: 130px;
+  position: relative;
+  margin-top: -20px;
+  width: 200px;
+}
+
+.qr_code{
+  max-width: 200px;
 }
