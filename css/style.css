@@ -270,6 +270,10 @@ footer.page-footer {
   margin-left: -4%;
 }
 
+.font_18{
+  font-size: 18px;
+}
+
 
 .imagen{
   box-shadow: none;
@@ -291,4 +295,8 @@ footer.page-footer {
 
 .qr_code{
   max-width: 200px;
+}
+
+.recomendacion_services{
+
 }
